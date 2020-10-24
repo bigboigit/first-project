@@ -1,11 +1,9 @@
-ask = 0
-ar = []
-while ask < 5:
-	ask_user = int(input('ENTER A NUMBER --> '))
-	ar.append(ask_user)
-	ask += 1
-def print_max(num_list):
-	max_value = max(num_list)
-	return max_value
+# List of sorting algos
 
-print(print_max(ar))
+def bubblesort(ar):
+	for i in range(len(ar)):
+		for j in range(i, len(ar) - 1):
+			if ar[j] > ar[j+1]:
+				ar[j], ar[j+1] = ar[j+1], ar[j]
+	return ar
+print(bubblesort([1000, 10, 20]))
