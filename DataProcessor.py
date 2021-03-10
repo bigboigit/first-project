@@ -1,6 +1,3 @@
-# Title: ML Final
-# Kiarash Jalali
-# 2020-11-30
 # Page that processes the data, this data will be used by the
 # Model.py page
 
